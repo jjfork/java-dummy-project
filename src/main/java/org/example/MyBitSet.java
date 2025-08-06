@@ -40,6 +40,7 @@ public class MyBitSet {
         return count;
     }
 //test test
+    //test
     public void and(MyBitSet other) {
         int minLength = Math.min(bits.length, other.bits.length);
         for (int i = 0; i < minLength; i++) {
